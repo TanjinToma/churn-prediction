@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy
+pandas
+scikit-learn
+
+# Deep learning
+torch
+torchvision
+torchaudio
+
+# Visualization
+matplotlib
+seaborn
+
+# Database connectivity
+sqlalchemy
+psycopg2-binary
+
+# Jupyter notebooks
+jupyter
+notebook
+

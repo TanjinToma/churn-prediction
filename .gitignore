@@ -1,0 +1,57 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb_save
+profile_default/
+ipython_config.py
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+.venv/
+venv/
+env/
+.conda/
+*.swp
+
+# -------------------------
+# OS-specific files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# PostgreSQL (ignore dumps, but keep schema + feature SQL scripts)
+# -------------------------
+*.dump
+*.bak
+*.backup
+
+# Keep project SQL scripts
+!sql/*.sql
+
+# -------------------------
+# Data
+# -------------------------
+# Keep synthetic datasets in `data/`
+!data/*.csv
+
+# If you later export raw SQL dumps into data/, ignore them
+data/*.dump
+data/*.bak
+data/*.backup
+
+
